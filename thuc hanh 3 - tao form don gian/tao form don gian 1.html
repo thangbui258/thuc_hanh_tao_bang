@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>so thich cua ban</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0 auto;
+        }
+        form{
+            width: 500px;
+
+        }
+        p{background-color: coral; color: white;
+            text-align: center;
+        }
+        span{
+            color: blue;
+        }
+        .sothich{
+            color: coral;
+
+        }
+        .tao_o{
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <p>SỞ THÍCH CỦA BẠN</p>
+        <TABLE>
+            <tr>
+                <td><span>Họ và Tên</span></td>
+                <td colspan="3"><input type="text" name="hoten"></td>
+
+            </tr>
+            <tr>
+                <td><span>Email</span></td>
+                <td colspan="3"><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td rowspan="4" style="vertical-align: top"><span>Sở thích</span></td>
+                <td class="sothich"><input type="checkbox" name="hobby" value="thethao" size="10">thể thao</td>
+                <td class="sothich"><input type="checkbox" name="hobby" value="amnhac" size="10">âm nhạc</td>
+                <td class="sothich"><input type="checkbox" name="hobby" value="docsach" size="10">đọc sách</td>
+            </tr>
+            <tr>
+                <td class="sothich"><input type="checkbox" name="hobby" value="luotweb">lướt web</td>
+                <td class="sothich"><input type="checkbox" name="hobby" value="choigame">chơi game</td>
+                <td class="sothich"><input type="checkbox" name="hobby" value="dienanh">điện ảnh</td>
+
+            </tr>
+            <tr>
+                <TD class="sothich"><input type="checkbox" name="hobby" value="dulich">du lịch</TD>
+            </tr>
+            <tr>
+                <td class="tao_o"><input type="submit" value="gửi thông tin"></td>
+                <td class="tao_o"><input type="reset" value="nhập lại"></td>
+            </tr>
+
+
+        </TABLE>
+
+    </form>
+</body>
+</html>
