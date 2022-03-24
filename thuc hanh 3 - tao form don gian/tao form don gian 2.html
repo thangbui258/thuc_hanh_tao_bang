@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tao form dơn gian 2</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0 auto;}
+        form{
+            width: 600px;
+            background-color: darkkhaki;
+            font-size: 18px;
+        }
+        p{
+            background-color: aqua;
+            color: blue;
+            font-size: 22px;
+            font-weight: 600;
+        }
+        td{
+            color: blue;
+        }
+        span{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="get">
+        <p>ĐĂNG KÝ HỌC VIÊN</p>
+        <TABLE>
+            <tr>
+                <td>Họ và tên</td>
+                <td colspan="2"><input type="text" name="hoten"></td>
+            </tr>
+            <tr>
+                <td>Ngày sinh</td>
+                <td colspan="2"><input type="text" name="ngaysinh"></td>
+            </tr>
+            <tr>
+                <td>Giới tính</td>
+                <td style="text-align: right"><input type="radio" name="gender" value="nam"><span>Nam</span></td>
+                <td><input type="radio" name="gender" value="nu"><span>Nữ</span></td>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <td colspan="2"><textarea cols="15" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td>Lớp</td>
+                <td colspan="2">
+                    <select name="" id="">
+                        <option value="1">lớp 1</option>
+                        <option value="2">lớp 2</option>
+                        <option value="3">lớp 3</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td colspan="2"><input type="email" name="emai"></td>
+            </tr>
+            <tr>
+                <td>Điện thoại</td>
+                <td colspan="2"><input type="text" name="dienthoai"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="đăng ký"></td>
+                <td><input type="reset" value="nhập lại"></td>
+            </tr>
+
+        </TABLE>
+
+    </form>
+
+</body>
+</html>
