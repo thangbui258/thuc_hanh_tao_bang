@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    width: 880px;
+    height: 900px;
+    background-color: yellow;
+    padding: 20px 10px 10px 25px ;
+}
+.trang{
+
+    width: 100px;
+    height: 100px;
+    background-color: white;
+
+}
+.den{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+
+}
+#hang_1{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+table{
+
+    border-collapse: collapse;
+}

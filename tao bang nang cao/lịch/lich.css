@@ -1,0 +1,59 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 25px;
+}
+div{
+    width: 100%;
+
+}
+h1{text-align: center;
+padding: 20px 0;
+color: blue;
+}
+
+.tr1>th{
+    width: 200px;
+    background-color: chocolate;
+    font-size: 24px;
+    color: white;
+    border: 1px white solid;
+}
+
+.table1{
+    border-collapse: collapse;
+}
+.tr2>td{
+    width: 200px;
+    background-color: white;
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    border: white 1px solid;
+}
+.tr3>th{
+    width: 200px;
+    background-color: white;
+}
+.table2, .table2 th{
+    border: 1px darkgray solid;
+    border-collapse: collapse;
+}
+
+
+
+.tr3,.tr4,.tr5,.tr6,.tr7{
+    font-size: 22px;
+ }
+.do{
+    color: red;
+}
+.xanh{
+    color: blue;
+}
+.den{
+ color: black;
+ }
