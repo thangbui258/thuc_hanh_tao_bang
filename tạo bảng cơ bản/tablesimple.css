@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table{
+    font-family: Arial,sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+table ,td, th {
+    border: 1px solid #dddddd;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(odd) {
+    background-color: #dddddd;
+}
+
